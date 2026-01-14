@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(#497685, #275370);
+    overflow-x: hidden;
+}
+
+.imagem {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto; 
+    border-radius: 20px;
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.8s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.card h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.70);
+    color: #EEE5E5;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    transition: 0.5s ease-in;
+    position: fixed;
+    width: 100%;
+}
+
+header h1:hover {
+    font-size: 40px;
+    transition: 0.5s ease-in-out;
+    color: #6e7cca;
+}
+
+header p {
+    text-align: center;
+    padding: 15px;
+    color: #EEE5E5;
+    padding-top: 150px;
+    font-size: 15px;
+}
+
+main h2{
+    text-align: center;
+    color: #EEE5E5;
+    padding-top: 80px;
+}
+
+main p {
+    text-align: center;
+}
+
+footer h2{
+    text-align: center;
+    color: #EEE5E5;
+}
+
+.contatos{
+    text-align: center;
+    background-color: red;
+}
